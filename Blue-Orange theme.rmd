@@ -1,0 +1,132 @@
+### Add the following code after your RMarkdown Preamble
+
+```{=html}
+<style>
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #56C3B4;
+    border-color: #56C3B4;
+}
+a {
+    color: #D44729;
+    text-decoration: none;
+}
+a:link {
+    color: #D44729;
+}
+a:hover {
+    color: #E04C2B;
+}
+.list-group-item {
+    background-color: #153144;
+    border-color: #153144;
+}
+#TOC {
+    margin: 25px 0px 20px 0px;
+    border-radius: 3px;
+    border-color: #102533;
+}
+  body{
+  font-family: 'Roboto mono', Helvetica;
+  font-size: 12pt;
+  color:#FFFFFF;
+  background-color:#0F1F2C;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto mono',Helvetica;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #D44729;
+}
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #FFFFFF;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #153144;
+    border: 1px solid #153144;
+    border-radius: 3px;
+}
+code, kbd, pre, samp {
+    font-family: 'Roboto mono', monospace;
+}
+.hljs-comment {
+    color: #E0F9F3;
+    font-style: italic;
+}
+.hljs-keyword {
+    color: #E04C2B;
+}
+.hljs-literal {
+    color: #DB806B;
+    font-weight: 600;
+}
+.hljs-string {
+    color: #D44729;
+}
+pre:not([class]) {
+    background-color: #72C2B7;
+    border: 1px solid #72C2B7;
+    border-radius: 3px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #56C3B4;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.alert-question {
+    color: #E0F9F3;
+    background-color: #132738;
+    border-color: #132738;
+}
+.scrollable-element {
+    margin-bottom: 20px;
+    overflow: scroll;
+    border-radius: 3px;
+    scrollbar-color: #153144 #0F1F2C;
+}
+.scrollable-element::-webkit-scrollbar {
+    width: 20px;               /* width of the entire scrollbar */
+}
+
+.scrollable-element::-webkit-scrollbar-track {
+    background: #0F1F2C;        /* color of the tracking area */
+}
+
+.scrollable-element::-webkit-scrollbar-thumb {
+    background-color: #D44729;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #0F1F2C;  /* creates padding around scroll thumb */
+}
+.scrollable-element::-webkit-scrollbar-corner {
+    background-color: #0F1F2C;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #0F1F2C;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #153144;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #153144;  /* creates padding around scroll thumb */
+}
+
+</style>
+```
