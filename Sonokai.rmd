@@ -1,0 +1,134 @@
+```{=html}
+<style>
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #E7C664;
+    border-color: #E7C664;
+}
+a {
+    color: #9ED072;
+    text-decoration: none;
+}
+a:link {
+    color: #9ED072;
+}
+a:hover {
+    color: #E04C2B;
+}
+.list-group-item {
+    background-color: #24252A;
+    border-color: #24252A;
+}
+#TOC {
+    margin: 25px 0px 20px 0px;
+    border-radius: 3px;
+    border-color: #24252A;
+}
+  body{
+  font-family: Helvetica;
+  font-size: 12pt;
+  color:#FFFFFF;
+  background-color:#2C2E34;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #9ED072;
+}
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #FFFFFF;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #24252A;
+    border: 1px solid #24252A;
+    border-radius: 3px;
+}
+code, kbd, pre, samp {
+    font-family: 'Roboto mono', monospace;
+}
+.hljs-comment {
+    color: #5A6F4D;
+    font-style: italic;
+    font-weight: 600;
+}
+.hljs-keyword {
+    color: #E7C664;
+}
+.hljs-literal {
+    color: #FC5D7C;
+    font-weight: 600;
+}
+.hljs-string {
+    color: #9ED072;
+}
+.hljs-number{
+    color: #76CCE0;
+}
+pre:not([class]) {
+    background-color: #2C2E34;
+    border: 1px solid #E7C664;
+    border-radius: 3px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #E7C664;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.alert-question {
+    color: #E7C664;
+    background-color: #2C2E34;
+    border-color: #E7C664;
+}
+.scrollable-element {
+    margin-bottom: 20px;
+    overflow: scroll;
+    border-radius: 3px;
+    scrollbar-color: #24252A #2C2E34;
+}
+.scrollable-element::-webkit-scrollbar {
+    width: 20px;               /* width of the entire scrollbar */
+}
+
+.scrollable-element::-webkit-scrollbar-track {
+    background: #2C2E34;        /* color of the tracking area */
+}
+
+.scrollable-element::-webkit-scrollbar-thumb {
+    background-color: #9ED072;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #2C2E34;  /* creates padding around scroll thumb */
+}
+.scrollable-element::-webkit-scrollbar-corner {
+    background-color: #2C2E34;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #2C2E34;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #24252A;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #24252A;  /* creates padding around scroll thumb */
+}
+
+</style>
+```
